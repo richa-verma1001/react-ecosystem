@@ -10,7 +10,11 @@ This example can be used as a beginners React Template that gives you a starting
 ### Run Application 
 ````
 npm install 
-npm run production
+npm run production   [Run production via webpack -p]
+
+or 
+npm install 
+npm run start  [Run devmode via webpack-dev-server]
 ````
 
 ### References 
