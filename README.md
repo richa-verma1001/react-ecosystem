@@ -1,2 +1,2 @@
-# react-ecosystem
-Example application to demo React and Ecosystem. Goal to be used as starting template. 
+# About
+This project demostrates a sample react application with React ecosystem: Webpack, babel, node and npm. 
