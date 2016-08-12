@@ -1,5 +1,18 @@
+/* (FIRST)
+focused
+independent
+reusable
+small
+testable
+*/
+
 var React = require('react');
 var ReactDOM = require('react-dom');
+
+var ITEMS = {
+	item1: "Todo1",
+	item2: "Todo2"
+}
 
 var App = React.createClass({
 	render: function(){
@@ -11,8 +24,8 @@ var App = React.createClass({
 				</div>
 				<div className="rightPane">
 					<ul>
-						<li>Item1</li>
-						<li>Item2</li>
+						<li>{this.props.data.item1}</li>
+						<li>{this.props.data.item2}</li>
 					</ul>
 				</div>
 			</div>
@@ -20,4 +33,4 @@ var App = React.createClass({
 	}
 });
 
-ReactDOM.render(<App />, document.getElementById('container'));
+ReactDOM.render(<App data={ITEMS}/>, document.getElementById('container'));
