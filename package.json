@@ -1,5 +1,5 @@
 {
-  "name": "react_ecosystem",
+  "name": "react-ecosystem",
   "version": "1.0.0",
   "description": "Example applicaiton to demo React with its ecosystem webpack, babel. ",
   "main": "index.js",
